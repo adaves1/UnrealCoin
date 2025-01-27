@@ -30,4 +30,4 @@ def coin_price(coin):
     else:
       print(f"Failed to retrieve the coin price. Status code: {doritocoin_r.status_code}")
   else:
-    return "The DoritoCoin Price is not available. Try again later."
+    return "The Coin Price is not available. Try again later."
